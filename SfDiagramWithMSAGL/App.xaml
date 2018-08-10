@@ -1,0 +1,31 @@
+﻿<Application x:Class="SfDiagramWithMSAGL.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:SfDiagramWithMSAGL"
+             xmlns:syncfusion="http://schemas.syncfusion.com/wpf"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+         <ResourceDictionary>
+            <!--For View to ViewModel binding-->
+             <ResourceDictionary.MergedDictionaries>
+                 <ResourceDictionary Source="/Syncfusion.SfDiagram.Wpf;component/Resources/BindingStyle.xaml" />
+             </ResourceDictionary.MergedDictionaries>
+            <!--To apply Style for NodeViewModel,ConnectorViewModel,NodePortViewModel,ConnectorPortViewModel-->
+             <Style TargetType="syncfusion:Node" BasedOn="{StaticResource NodeBindingStyle}">
+                 <!--Common code for NodeViewModel-->
+             </Style>
+             <Style TargetType="syncfusion:Connector" BasedOn="{StaticResource ConnectorBindingStyle}">
+                 <!--Common code for ConnectorViewModel-->
+             </Style>
+             <Style TargetType="syncfusion:NodePort" BasedOn="{StaticResource NodePortBindingStyle}">
+                 <!--Common code for NodePortViewModel-->
+             </Style>
+             <Style TargetType="syncfusion:ConnectorPort" BasedOn="{StaticResource ConnectorPortBindingStyle}">
+                 <!--Common code for ConnectorPortViewModel-->
+             </Style>
+             <Style TargetType="syncfusion:AnnotationEditor" BasedOn="{StaticResource AnnotationEditorBindingStyle}">
+                 <!--Common code for AnnotationEditorViewModel-->
+             </Style>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
