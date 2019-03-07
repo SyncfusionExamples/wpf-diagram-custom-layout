@@ -39,21 +39,21 @@
     <Reference Include="Microsoft.Msagl, Version=3.0.0.0, Culture=neutral, PublicKeyToken=640c57aa40e7ae7d, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.Msagl.1.1.1\lib\net40\Microsoft.Msagl.dll</HintPath>
     </Reference>
-    <Reference Include="Syncfusion.Licensing, Version=16.2460.0.41, Culture=neutral, PublicKeyToken=632609b4d040f6b4, processorArchitecture=MSIL">
-      <HintPath>..\packages\Syncfusion.Licensing.16.2.0.41\lib\net46\Syncfusion.Licensing.dll</HintPath>
+    <Reference Include="Syncfusion.Licensing, Version=16.2460.0.50, Culture=neutral, PublicKeyToken=632609b4d040f6b4, processorArchitecture=MSIL">
+      <HintPath>..\packages\Syncfusion.Licensing.16.2.0.50\lib\net46\Syncfusion.Licensing.dll</HintPath>
     </Reference>
-    <Reference Include="Syncfusion.PropertyGrid.Wpf, Version=16.2460.0.41, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL">
-      <HintPath>..\packages\Syncfusion.PropertyGrid.WPF.16.2.0.41\lib\net46\Syncfusion.PropertyGrid.Wpf.dll</HintPath>
+    <Reference Include="Syncfusion.PropertyGrid.Wpf, Version=16.2460.0.50, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL">
+      <HintPath>..\packages\Syncfusion.PropertyGrid.WPF.16.2.0.50\lib\net46\Syncfusion.PropertyGrid.Wpf.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Syncfusion.SfDiagram.WPF, Version=16.2460.0.41, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL">
-      <HintPath>..\packages\Syncfusion.SfDiagram.WPF.16.2.0.41\lib\net46\Syncfusion.SfDiagram.WPF.dll</HintPath>
+    <Reference Include="Syncfusion.SfDiagram.WPF, Version=16.2460.0.50, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL">
+      <HintPath>..\packages\Syncfusion.SfDiagram.WPF.16.2.0.50\lib\net46\Syncfusion.SfDiagram.WPF.dll</HintPath>
     </Reference>
-    <Reference Include="Syncfusion.Shared.Wpf, Version=16.2460.0.41, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL">
-      <HintPath>..\packages\Syncfusion.Shared.WPF.16.2.0.41\lib\net46\Syncfusion.Shared.Wpf.dll</HintPath>
+    <Reference Include="Syncfusion.Shared.Wpf, Version=16.2460.0.50, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL">
+      <HintPath>..\packages\Syncfusion.Shared.WPF.16.2.0.50\lib\net46\Syncfusion.Shared.Wpf.dll</HintPath>
     </Reference>
-    <Reference Include="Syncfusion.Tools.Wpf, Version=16.2460.0.41, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL">
-      <HintPath>..\packages\Syncfusion.Tools.WPF.16.2.0.41\lib\net46\Syncfusion.Tools.Wpf.dll</HintPath>
+    <Reference Include="Syncfusion.Tools.Wpf, Version=16.2460.0.50, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL">
+      <HintPath>..\packages\Syncfusion.Tools.WPF.16.2.0.50\lib\net46\Syncfusion.Tools.Wpf.dll</HintPath>
       <Private>True</Private>
       <Private>True</Private>
     </Reference>
